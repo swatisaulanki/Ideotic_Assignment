@@ -1,0 +1,142 @@
+
+
+.navbar{
+    background-color: rgb(20, 20, 63);
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    background-size: cover;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+
+}
+a{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+
+}
+a:hover{
+    color: red;
+}
+.register{
+    margin-left: 30%;
+}
+.sign{
+    margin-left: -20%;
+}
+.btn1{
+    height: 30px;
+    width: 5.8vw;
+    font-size: 16px;
+    color: rgb(35, 35, 80);
+    background-color: white;
+    border: none;
+}
+
+.btn2{
+    height: 30px;
+    width: 5.8vw;
+    font-size: 16px;
+    color: rgb(35, 35, 80);
+    background-color: white;
+    border: none;
+}
+.btn1:hover{
+    color: red;
+    background-color: rgb(166, 166, 254);
+}
+
+.btn2:hover{
+    color: red;
+    background-color: rgb(166, 166, 254);
+}
+
+
+
+
+
+@media all and (min-width:80px) and (max-width:380px){
+
+    .navbar{
+        background-color: rgb(20, 20, 63);
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-around;
+        font-family: sans-serif;
+        background-size: cover;
+        width: 100vw;
+        top: 0;
+        position: fixed;
+        
+    }
+
+    .btn1{
+        height: 30px;
+        width: 5.8vw;
+        font-size: 16px;
+        color: rgb(35, 35, 80);
+        background-color: white;
+        border: none;
+    }
+    
+    .btn2{
+        height: 30px;
+        width: 5.8vw;
+        font-size: 16px;
+        color: rgb(35, 35, 80);
+        background-color: white;
+        border: none;
+    }
+    .register{
+        margin-left: 10%;
+    }
+    .sign{
+        margin-left: -50px;
+    }
+}
+
+@media all and (min-width:80px) and (max-width:380px){
+   
+    .navbar{
+        background-color: rgb(20, 20, 63);
+        padding: 10px 10px;
+        display: flex;
+        justify-content: space-around;
+        font-family: sans-serif;
+        background-size: cover;
+        width: 100vw;
+        top: 0;
+        position: fixed;
+    
+    }
+
+    .btn1{
+        height: 30px;
+        width: 5.8vw;
+        font-size: 16px;
+        color: rgb(35, 35, 80);
+        background-color: white;
+        border: none;
+    }
+    
+    .btn2{
+        height: 30px;
+        width: 5.8vw;
+        font-size: 16px;
+        color: rgb(35, 35, 80);
+        background-color: white;
+        border: none;
+    }
+    .register{
+        margin-left: 10%;
+    }
+    .sign{
+        margin-left: -100%;
+    }
+}

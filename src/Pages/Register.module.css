@@ -1,0 +1,35 @@
+.register{
+    border: 1px solid black;
+    width: 48%;
+    margin: auto;
+    margin-top: 8%;
+    height: 80vh;
+    font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.register h2{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.register p{
+    margin-left: -27%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.input{
+    width:50%;
+}
+.btns{
+    background-color: rgb(20, 20, 63);
+    color: white;
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: none;
+}
+.btns:hover{
+    background-color: rgb(8, 10, 92);
+    color: red;
+   }

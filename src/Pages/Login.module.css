@@ -1,0 +1,38 @@
+.logins{
+    border:1px solid black;
+    height: 55vh;
+    width: 38%;
+    margin: auto;
+    margin-top: 9%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.logins p{
+    margin-left: -25%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+input{
+    height: 30px;
+    width: 38%;
+    font-family: sans-serif;
+
+}
+.btn{
+    color: white;
+    background-color: rgb(20, 20, 63);
+    width: 39%;
+    height: 38px;
+    font-size: 20px;
+    border: none;
+    font-family: sans-serif;
+}
+h3{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.btn:hover{
+    background-color:rgb(8, 10, 92);
+    color: red;
+
+   }
